@@ -1,7 +1,26 @@
 # testerror
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a MVCE for [ember-cli issue #6723](https://github.com/ember-cli/ember-cli/issues/6723)
+
+It's simply the default blueprint from ember-cli v2.11:
+
+```
+$ ember --version
+ember-cli: 2.11.0
+node: 6.3.0
+os: linux x64
+```
+
+Generated with:
+
+```
+$ ember new testerror
+ ...
+$ cd testerror
+$ ember test --serve
+```
+
+and then navigating to http://localhost:7357/ in Chrome
 
 ## Prerequisites
 
